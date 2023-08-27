@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@media (min-width: 414px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family:'Righteous', cursive;
+    
+    
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        box-shadow: 10px 5px 10px black;
+    }
+    h1{
+        font-size: 35px;
+        border-left: transparent;
+    }
+    h1:hover{
+        transition: 2s;
+        letter-spacing: 10px;
+    
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        box-shadow: 10px 5px 10px black;
+        padding: 20px;
+}
+   .input-field{
+    border: none;
+    background: transparent;
+    outline: transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px white;
+    color: white;
+
+
+    } 
+   .input-field:hover{
+    transition: 2s;
+    padding: 10px;
+}
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+.field-btn{
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 2px;
+    font-size: 20px;
+
+}
+
+
+.li-text{
+    color: black;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+}
+li{
+    box-shadow: 1px 1px 5px white;
+}
+.btn-main{
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 2px;
+    float: right;
+    
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px ){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family:'Righteous', cursive;
+    
+    
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        box-shadow: 10px 5px 10px black;
+    }
+    h1{
+        font-size: 35px;
+        border-left: transparent;
+    }
+    h1:hover{
+        transition: 2s;
+        letter-spacing: 10px;
+    
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        box-shadow: 10px 5px 10px black;
+        padding: 20px;
+}
+   .input-field{
+    border: none;
+    background: transparent;
+    outline: transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px white;
+    color: white;
+
+
+    } 
+   .input-field:hover{
+    transition: 2s;
+    padding: 10px;
+}
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+.field-btn{
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 2px;
+    font-size: 20px;
+
+}
+
+.li-text{
+    color: black;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+}
+li{
+    box-shadow: 1px 1px 5px white;
+}
+.btn-main{
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 2px;
+    float: right;
+    
+ 
+
+
+}
+
+
+
+
+}
+
+
+
